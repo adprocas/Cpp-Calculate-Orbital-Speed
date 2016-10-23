@@ -83,8 +83,5 @@ public:
 
 	void printTimeToOrbit() {
 		std::cout << "Time to orbit - " << _t << " seconds.";
-
-		time_t seconds(_t); // you have to convert your input_seconds into time_t
-		tm *p = gmtime(&seconds); // convert to broken down time
 	}
 };
