@@ -28,6 +28,6 @@ public:
 	}
 
 	void printVelocity() {
-		std::cout << _v << "m/s" << std::endl;
+		std::cout << _v << "m/s";
 	}
 };

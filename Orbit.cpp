@@ -36,7 +36,9 @@ int main(int argv, char* argc[]) {
 
 	orbitSpeed.printEquationWithValues();
 
-	cout << "  = " << v << "m/s" << endl << endl;
+	cout << "  = ";
+	orbitSpeed.printVelocity();
+	cout << endl;
 
 	cout << "Therefore, the satellite is moving at a speed of " << v << "m/s about the Earth" << endl << endl;
 }
